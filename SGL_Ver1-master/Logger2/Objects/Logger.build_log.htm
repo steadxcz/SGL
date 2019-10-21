@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tfgwesdffsd fsdsdffsdsdf, fsdfsdsfdfsd, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.28.0.0
+Toolchain Path:  E:\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\User\Desktop\SGL_Ver1-master\Logger2\Logger.uvprojx
+Project File Date:  10/21/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_ADuCM360.s...
+compiling crc8.c...
+.\Inc\crc8.h(8): warning:  #1-D: last line of file ends without a newline
+  	char get_crc8(char const message[], int nBytes);
+Src\crc8.c(11): warning:  #62-D: shift count is negative
+          data = message[byte] ^ (remainder >> (WIDTH - 8));
+Src\crc8.c(16): warning:  #1-D: last line of file ends without a newline
+  }
+Src\crc8.c: 3 warnings, 0 errors
+compiling system_ADuCM360.c...
+compiling Pins.c...
+compiling BoardInit.c...
+.\Inc\Pins.h(5): warning:  #47-D: incompatible redefinition of macro "SEL_2"  (declared at line 6 of ".\Inc\BoardInit.h")
+  #define SEL_2								((uint8_t) 1<<0)						// for pin P0.0
+.\Inc\Pins.h(8): warning:  #47-D: incompatible redefinition of macro "SEL_1"  (declared at line 9 of ".\Inc\BoardInit.h")
+  #define SEL_1								((uint8_t) 1<<3)						// for pin P0.3
+.\Inc\Pins.h(9): warning:  #47-D: incompatible redefinition of macro "CPU_FET"  (declared at line 10 of ".\Inc\BoardInit.h")
+  #define CPU_FET							((uint8_t) 1<<4)						// for P0.4
+.\Inc\Pins.h(10): warning:  #47-D: incompatible redefinition of macro "VEXT_PRES"  (declared at line 11 of ".\Inc\BoardInit.h")
+  #define VEXT_PRES						((uint8_t) 1<<5	)					// for pin P0.5
+.\Inc\Pins.h(14): warning:  #47-D: incompatible redefinition of macro "SPI0_CS"  (declared at line 17 of ".\Inc\BoardInit.h")
+  #define SPI0_CS							((uint8_t) 1<<7	)					// for pin P1.7
+.\Inc\Pins.h(15): warning:  #47-D: incompatible redefinition of macro "CNTR_PER"  (declared at line 13 of ".\Inc\BoardInit.h")
+  #define	CNTR_PER						((uint8_t) 1<<0	)					// for pin P2.0	
+Src\BoardInit.c: 6 warnings, 0 errors
+compiling main.c...
+.\Inc\crc8.h(8): warning:  #1-D: last line of file ends without a newline
+  	char get_crc8(char const message[], int nBytes);
+main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=8164 RO-data=548 RW-data=132 ZI-data=1436  
+FromELF: creating hex file...
+".\Objects\Logger.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: AnalogDevices
+                http://download.analog.com/tools/EZBoards/CM36x/Releases/AnalogDevices.ADuCM36x_DFP.1.0.4.pack
+                AnalogDevices.ADuCM36x_DFP.1.0.4
+                Analog Devices ADuCM36x Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\User\AppData\Local\Arm\Packs\AnalogDevices\ADuCM36x_DFP\1.0.4\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: AnalogDevices::Device:Startup:1.0.0
+      Source file:   Device\Source\system_ADuCM360.c
+      Source file:   Device\Source\ARM\startup_ADuCM360.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

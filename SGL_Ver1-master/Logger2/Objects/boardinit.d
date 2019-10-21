@@ -1,0 +1,10 @@
+.\objects\boardinit.o: Src\BoardInit.c
+.\objects\boardinit.o: .\Inc\BoardInit.h
+.\objects\boardinit.o: C:\Users\User\AppData\Local\Arm\Packs\AnalogDevices\ADuCM36x_DFP\1.0.4\Device\Include\ADUCM360.h
+.\objects\boardinit.o: C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm3.h
+.\objects\boardinit.o: E:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\boardinit.o: C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h
+.\objects\boardinit.o: C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\boardinit.o: C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\boardinit.o: C:\Users\User\AppData\Local\Arm\Packs\AnalogDevices\ADuCM36x_DFP\1.0.4\Device\Include\system_ADuCM360.h
+.\objects\boardinit.o: .\Inc\Pins.h
